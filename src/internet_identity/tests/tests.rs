@@ -2003,6 +2003,7 @@ mod http_tests {
             "internet_identity_last_upgrade_timestamp",
             "internet_identity_inflight_challenges",
             "internet_identity_users_in_registration_mode",
+            "internet_identity_buffered_archive_entries",
         ];
         let env = env();
         env.advance_time(Duration::from_secs(300)); // advance time to see it reflected on the metrics endpoint

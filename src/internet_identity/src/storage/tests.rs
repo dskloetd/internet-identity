@@ -343,6 +343,7 @@ fn sample_persistent_state() -> PersistentState {
                 entries_buffer_limit: 10_000,
                 polling_interval_ns: 60_000_000_000,
                 entries_fetch_limit: 1_000,
+                archive_integration: None,
             },
         },
         canister_creation_cycles_cost: 12_346_000_000,
